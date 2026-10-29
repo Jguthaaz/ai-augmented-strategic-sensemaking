@@ -1,0 +1,15 @@
+# Registro de decisión
+- ID / fecha / versión:
+- Pregunta:
+- Opciones consideradas:
+- Criterios y razones:
+- Fuentes e hipótesis utilizadas:
+- Decisión y responsable:
+- Estado: firme / provisional / pendiente de evidencia.
+- Desacuerdos y perspectivas minoritarias:
+- Supuestos y límites:
+- Qué evidencia cambiaría la decisión:
+- Experimento o validación:
+- Responsable / fecha / indicador:
+- Fecha de revisión:
+- Resultado observado y cambio de decisión:
