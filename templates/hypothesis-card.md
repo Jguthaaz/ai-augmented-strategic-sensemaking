@@ -1,0 +1,21 @@
+# Ficha de hipótesis
+- ID / proyecto / versión:
+- Pregunta estratégica:
+- Hipótesis provisional:
+- Origen: cliente / consultor / análisis asistido.
+- Segmento, periodo y definición:
+- Evidencia a favor: ID de fuente, localizador y alcance.
+- Evidencia en contra:
+- Hechos observados:
+- Afirmaciones de participantes:
+- Inferencias del análisis:
+- Supuestos:
+- Comparabilidad y limitaciones:
+- Evidencia faltante / verificación:
+- Explicaciones alternativas:
+- Implicaciones posibles para la decisión — revisión humana requerida:
+- Preguntas para el workshop:
+- Estado: borrador / revisión / discusión / reformulada / descartada / validación.
+- Revisor, fecha y versión aprobada:
+- Evento que obliga a reabrir:
+- Acción de validación, responsable, fecha y señal esperada:
