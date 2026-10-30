@@ -7,6 +7,11 @@ Created by **Jorge Alberto Gutierrez Haaz**, drawing on experience designing and
 
 [Leer en español](README.es.md) · [Pilot scope](docs/pilot-charter.md) · [Worked example](examples/customer-retention/README.md) · [Roadmap](ROADMAP.md)
 
+## Try Strategic Sensemaking Lab
+[**Open the interactive demo on Hugging Face →**](https://huggingface.co/spaces/jguthaaz/strategic-sensemaking-lab)
+
+Explore how evidence, competing hypotheses, and executive perspectives can inform a strategic workshop. Using a fictional customer-retention case, the Lab lets you review sources, identify comparability issues, explore discussion questions, and download a decision brief with rationale and next validation steps. This educational simulation uses predefined content and rules; it does not run AI models or connect to the local MCP server.
+
 ## The business challenge
 Leadership teams can have extensive information and powerful AI tools while still struggling to compare evidence, challenge dominant assumptions, surface disagreements, and decide what to do next. A polished SWOT does not establish which claims are supported.
 
