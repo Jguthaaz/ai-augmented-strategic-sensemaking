@@ -18,6 +18,9 @@ El caso ilustrativo pregunta: **¿qué explicaciones de la fuga de clientes tien
 - Los directivos deciden prioridades y compromisos.
 - Las incertidumbres se convierten en acciones de validación.
 
+## Arquitectura y funcionamiento
+La [guía didáctica del proyecto](docs/PROJECT-GUIDE.es.md) documenta el flujo consultor → Cline/modelo → MCP → evidencia → síntesis → revisión humana. La conexión local está probada con las cuatro herramientas.
+
 ## Materiales
 - [Alcance del piloto](docs/pilot-charter.md).
 - [Playbook aplicado](docs/playbook.md).
@@ -28,6 +31,6 @@ El caso ilustrativo pregunta: **¿qué explicaciones de la fuga de clientes tien
 - [Evaluación](docs/evaluation.md) y [roadmap](ROADMAP.md).
 
 ## Estado y límites
-Versión 0.1: documentos y ejemplos; **no contiene agentes ejecutables ni resultados validados**. Todos los datos del caso son ficticios. No se incluyen documentos de clientes ni materiales del curso. Es una síntesis independiente y no implica aval institucional.
+Versión 0.2: metodología, demostración web estática y servidor MCP local de solo lectura. Se verificaron ocho pruebas de lógica, el protocolo con un cliente SDK y una consulta completa dentro de Cline. **No hay resultados de negocio validados ni un sistema multiagente autónomo desplegado**. Todos los datos del caso son ficticios. No se incluyen documentos de clientes ni materiales del curso. Es una síntesis independiente y no implica aval institucional.
 
 El objetivo es aprender si una preparación más trazable mejora la conversación y las decisiones, sin trasladar el esfuerzo ahorrado a una revisión excesiva.
