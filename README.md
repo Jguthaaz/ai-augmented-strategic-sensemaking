@@ -19,6 +19,9 @@ The consultant's contribution is to frame the question, connect evidence with co
 - A fully fictional customer-retention case.
 - An evaluation plan that measures decision usefulness as well as preparation effort.
 
+## Architecture and functional guide
+Read the [Spanish project guide](docs/PROJECT-GUIDE.es.md) for the implemented architecture, a worked query, verification results, limits, and next steps.
+
 ## Start here
 1. Read the [pilot charter](docs/pilot-charter.md).
 2. Walk through the [synthetic case](examples/customer-retention/README.md).
@@ -32,7 +35,7 @@ Frame the strategic question → authorize and organize sources → check compar
 AI supports research, comparison, and synthesis. The consultant reviews strategic interpretations and facilitates the conversation. Client leaders retain decision authority.
 
 ## Project status
-**Version 0.2: methodology plus a tested, local read-only MCP server.** The [MCP module](mcp/README.md) exposes four tools over stdio using synthetic evidence. Eight logic tests and a real SDK client handshake/tool-call check passed. Connection inside Cline remains to be completed. No autonomous consulting agent or validated client business outcomes are claimed.
+**Version 0.2: methodology plus a tested, local read-only MCP server.** The [MCP module](mcp/README.md) exposes four tools over stdio using synthetic evidence. Eight logic tests and a real SDK client handshake/tool-call check passed. Connection inside Cline is verified: all four tools were called in an end-to-end synthetic-data task, producing a cited Spanish synthesis. No autonomous consulting agent or validated client business outcomes are claimed.
 
 Microsoft tools are an implementation option, not a verified deployment. This repository contains no client files, course handouts, or proprietary materials. It is an independent synthesis informed by professional experience and learning; it is not an official course framework or institutional endorsement.
 
