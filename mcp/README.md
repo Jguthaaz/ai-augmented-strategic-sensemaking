@@ -2,6 +2,9 @@
 
 Servidor MCP local y de solo lectura para apoyar el diagnóstico previo a un workshop. **Datos totalmente ficticios.** El servidor consulta evidencia estructurada; no ejecuta un modelo de IA, no valida causas ni toma decisiones. Cline actúa como cliente y aporta el modelo seleccionado por el usuario.
 
+## Estado verificado
+Conectado a Cline y probado con una tarea que llamó a las cuatro herramientas. Ocho pruebas de lógica y la prueba de protocolo por stdio pasaron. Ver [arquitectura, ejemplo y límites](../docs/PROJECT-GUIDE.es.md).
+
 ## Qué incluye
 - Cinco fuentes sintéticas con localizadores S1–S5.
 - Tres hipótesis provisionales sobre entregas, precio y seguimiento comercial.
@@ -28,7 +31,7 @@ En MCP Servers → Configure MCP Servers, fusionar este bloque con la configurac
 {"mcpServers":{"strategic-sensemaking":{"command":"C:/ruta/strategic-sensemaking-mcp/.venv/Scripts/python.exe","args":["C:/ruta/strategic-sensemaking-mcp/server.py"],"disabled":false,"autoApprove":[]}}}
 ```
 
-`cline.local.json` contiene las rutas de esta computadora y no debe publicarse. La configuración del usuario no se modifica automáticamente.
+`cline.local.json` contiene las rutas de esta computadora y no debe publicarse. En la computadora de desarrollo se incorporó la entrada a la configuración activa con respaldo y aprobación manual. La instalación del código por sí sola no configura otros equipos. En esta instalación Cline usa `.cline/data/settings/cline_mcp_settings.json`; abrir Edit Configuration para confirmar la ruta vigente.
 
 ## Primera consulta
 “Usa strategic-sensemaking para buscar evidencia de seguimiento. Recupera S5 y compara S2 con S5; después consulta H3. Cita ID y localizador, distingue asociación de causalidad y propone tres preguntas para el workshop. No ejecutes comandos ni modifiques archivos.”
