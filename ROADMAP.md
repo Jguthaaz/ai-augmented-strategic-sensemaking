@@ -1,21 +1,26 @@
 # Roadmap
-## 0.1 — Base metodológica (incluida)
-- Presentación pública bilingüe.
-- Alcance, controles y criterios de evaluación.
-- Plantillas y un caso enteramente ficticio.
-- Sin código de agentes ni integraciones.
+Actualizado el 29 de octubre de 2026. Estados basados en la implementación y pruebas realizadas.
 
-## 0.2 — Línea base manual (pendiente)
-Completar las plantillas con el caso; medir preparación y revisión; pedir contraste a un revisor. Ajustar definiciones y reglas antes de automatizar.
+## Completado
+- Base metodológica, plantillas y caso sintético en GitHub.
+- Demostración estática pública en Hugging Face con dos hipótesis.
+- Servidor MCP local: cinco fuentes, tres hipótesis y cuatro herramientas de solo lectura.
+- Ocho pruebas de lógica y prueba real de protocolo por stdio.
+- Conexión a Cline y consulta de extremo a extremo con referencias y límites.
+- [Guía didáctica de arquitectura y funcionamiento](docs/PROJECT-GUIDE.es.md).
 
-## 0.3 — Prototipo acotado (pendiente)
-Procesar solo fuentes sintéticas; generar fichas con referencias; implementar bloqueo por comparabilidad y aprobación por versión. Probar errores deliberados y costo de supervisión. Seleccionar herramientas tras verificar acceso y restricciones.
+## Próxima iteración
+- Incorporar H3/S5 a la interfaz del Space; todavía no confirmado.
+- Ampliar evaluación con fuentes incompatibles, consultas sin resultados y errores de interpretación.
+- Revisar calidad semántica de metadatos; la validación técnica no sustituye su revisión.
 
-## 0.4 — Piloto autorizado (pendiente)
-Con un cliente voluntario, autorización de datos y alcance definido. Mantener datos reales en entorno privado separado. Ejecutar un workshop y documentar aprendizaje sin publicar información identificable.
+## Pendiente de evaluación
+- Línea base manual comparable y medición de esfuerzo total, correcciones y utilidad decisional.
+- Workshop de prueba con observación de participación, desacuerdos y calidad de prioridades.
 
-## 0.5 — Demostración pública (pendiente)
-Considerar una experiencia en Hugging Face con datos sintéticos, límites visibles y sin carga de datos confidenciales. Publicar resultados evaluados y limitaciones antes de afirmar beneficios.
+## Desarrollo futuro
+- Evaluar despliegue remoto MCP con autenticación y límites de uso antes de conectarlo a una aplicación pública.
+- Piloto autorizado con cliente y datos segregados solo después de verificar gobernanza.
+- Tutores virtuales para preparación y aprendizaje, aún exploratorios.
 
-## Extensión educativa (exploratoria)
-Tutores virtuales personalizados para preparar participantes y practicar preguntas estratégicas. Simulaciones claramente etiquetadas; diseño orientado a desarrollar autonomía del cliente.
+El Space estático y el MCP local son componentes separados. No se han validado beneficios comerciales ni productividad con clientes reales.
