@@ -32,13 +32,15 @@ Frame the strategic question → authorize and organize sources → check compar
 AI supports research, comparison, and synthesis. The consultant reviews strategic interpretations and facilitates the conversation. Client leaders retain decision authority.
 
 ## Project status
-**Version 0.1: methodology and illustrative artifacts.** No live agents, external integrations, or validated client outcomes are included. The architecture is a design proposal; the example is not evidence of business impact.
+**Version 0.2: methodology plus a tested, local read-only MCP server.** The [MCP module](mcp/README.md) exposes four tools over stdio using synthetic evidence. Eight logic tests and a real SDK client handshake/tool-call check passed. Connection inside Cline remains to be completed. No autonomous consulting agent or validated client business outcomes are claimed.
 
 Microsoft tools are an implementation option, not a verified deployment. This repository contains no client files, course handouts, or proprietary materials. It is an independent synthesis informed by professional experience and learning; it is not an official course framework or institutional endorsement.
 
 ## Contents
 | Area | Contents |
 |---|---|
+| [MCP module](mcp/README.md) | Executable read-only evidence tools, three hypotheses, setup and tests |
+| [Hugging Face demo](https://huggingface.co/spaces/jguthaaz/strategic-sensemaking-lab) | Separate static simulation; not connected to the local MCP server |
 | [Playbook](docs/playbook.md) | Audit, Gauge, Engineer, Navigate, Track applied to this pilot |
 | [Architecture](docs/agent-architecture.md) | Roles, handoffs, state, and escalation |
 | [Governance](docs/governance.md) | Source authorization, review, isolation, and release controls |
