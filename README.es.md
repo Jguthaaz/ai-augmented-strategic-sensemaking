@@ -3,6 +3,11 @@
 
 Metodología en desarrollo de **Jorge Alberto Gutierrez Haaz** para conectar evidencia, hipótesis y perspectivas directivas con decisiones estratégicas mejor fundamentadas.
 
+## Prueba Strategic Sensemaking Lab
+[**Abrir la demostración interactiva en Hugging Face →**](https://huggingface.co/spaces/jguthaaz/strategic-sensemaking-lab)
+
+Explora cómo conectar evidencia, hipótesis y perspectivas directivas en un workshop estratégico. Mediante un caso ficticio de fuga de clientes, el Lab permite revisar fuentes, identificar problemas de comparabilidad, explorar preguntas de contraste y descargar una ficha de decisión con su justificación y siguientes validaciones. Es una simulación educativa con contenido y reglas predefinidos; no ejecuta modelos de IA ni se conecta al servidor MCP local.
+
 ## Propósito
 El acceso a datos, frameworks e IA ya no garantiza una buena decisión. Los equipos necesitan distinguir hechos de interpretaciones, comparar fuentes, explorar explicaciones alternativas y debatir sin que la jerarquía determine prematuramente la conclusión.
 
